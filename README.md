@@ -23,7 +23,7 @@
 * 03_largest_number
 * 04_sum_numbers
 * 05_in_array
-* 06_definition
+* 06_definitionq
 * 07_included_once
 * 08_count_letters
 * 09_vowels
