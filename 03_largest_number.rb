@@ -16,8 +16,8 @@
 # 
 # Examples - what if both numbers are equal or are strings?
 
-def largest_number(*2numbers)
-puts "Please enter the 2 numbers"
+def largest_number
+puts "Please enter the first number"
 x = gets.to_i
 puts "Please enter the second number"
 y = gets.to_i
@@ -31,6 +31,12 @@ end
 end
 
 largest_number
+
+def largest_in_array(*all_numbers)
+puts "How many numbers do you want to compare ? \n
+#{all_numbers.length}"
+for i in 0...all_numbers.length
+puts "The numbers are "
 
 
 #def sample (*test)
