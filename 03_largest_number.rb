@@ -16,8 +16,18 @@
 # 
 # Examples - what if both numbers are equal or are strings?
 
-def largest_number (number_1, number_2)
-  # Your code here
+def largest_number
+puts "Please enter the first number"
+x = gets.to_i
+puts "Please enter the second number"
+y = gets.to_i
+if x >  y then
+  puts "#{x} is greater than #{y} \n"
+elsif x == y then
+  puts "#{x} and #{y} are both equal to each other.\n"
+else 
+  puts "#{y} is greater than #{x} \n"
+end
 end
 
-largest_number(100,50)
+largest_number
