@@ -14,6 +14,12 @@
 # Program outputs:
 # "Wow! You are 40 years old. Congratulations!"
 
+puts "What is your name? \n"
+name = gets
+puts "Hello #{name}!!, Now tell me your age as well ! \n"
+age = gets.to_i
+puts "Thank you !! You are #{age} years old ! \n"
+
 # Beast mode challenge:
 # Ater the above, the program calculates how many years until
 # the user is 100 years old and tells the user. For example, for
@@ -21,3 +27,6 @@
 # "Wow! You are 40 years old. Congratulations!"
 # The program also outputs:
 # "Tom, in 60 years you will be 100 years old!"
+
+x = 100 - age
+puts "You will be 100 in #{x} years !! \n"
