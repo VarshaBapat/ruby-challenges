@@ -14,8 +14,18 @@
 # "hello", ["hi","howdy","hello"] should return true.
 
 def in_array (needle, haystack)
-  # Your code here
+  found_string = haystack.map{|item| item == needle ? 1 : nil}.compact
+  #puts "#{found_string}"
+  if (found_string.length > 0)
+    return true
+  else
+    return false
+  end
+  #input.map {|item| item > 0 ? item : nil}.compact
 end
+
+found_string_value = in_array("VVB", ["hi","howdy","hello"])
+puts "#{found_string_value}"
 
 
 # Beast Mode:

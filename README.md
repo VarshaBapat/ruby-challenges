@@ -33,3 +33,13 @@
 * 13_fibonacci
 * 14_hackerman
 * 15_change_letters
+<<<<<<< HEAD
+=======
+* 16_palindrome
+* 17_combine_hashes
+* 18_find_errors
+* 19_balanced_number
+* 20_descending_numbers
+* 21_sort_numbers
+* 22_exes_ohs
+>>>>>>> 4a3959cc538f83ca85bc65db68ff57b1adb64ac5

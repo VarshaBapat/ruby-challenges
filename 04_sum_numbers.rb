@@ -11,8 +11,12 @@
 # ruby tests/04_sum_numbers_test.rb
 
 def sum_numbers (numbers)
-  # Your code here
+  sum = numbers.reduce {|a,b| a+b}
 end
+
+numbers =[1.2,2.3,3.4,4.5,5.6]
+sum = sum_numbers (numbers)
+puts "Sum of all the numbers of the array is : #{sum}"
 
 
 # OPTIONAL:

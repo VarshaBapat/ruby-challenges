@@ -19,6 +19,7 @@ name = gets
 puts "Hello #{name}!!, Now tell me your age as well ! \n"
 age = gets.to_i
 puts "Thank you !! You are #{age} years old ! \n"
+#this is a comment
 
 # Beast mode challenge:
 # Ater the above, the program calculates how many years until
