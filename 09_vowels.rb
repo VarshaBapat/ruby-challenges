@@ -27,9 +27,9 @@ return result_array
 #end
 #return result
 end
-result_array = Array.new
-result_array = vowels("aeiooudfghaeiouoooooooooo")
-puts result_array
+#result_array = Array.new
+#result_array = vowels("aeiooudfghaeiouoooooooooo")
+#puts result_array
 
 #[a e i o u] [1,2,3,4,5]
 
