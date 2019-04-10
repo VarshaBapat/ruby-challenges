@@ -18,5 +18,6 @@
 # ruby tests/10_unique_test.rb
 
 def unique(mylist)
-  # Your code here
+  unique_array.each_index {|i| count_array[i] = input_array.count(unique_array[i])}
+
 end
