@@ -19,3 +19,13 @@
 
 
 # Your code here
+puts "Please enter the input string:"
+input_string = gets.strip
+puts "Please enter the character to be replaced:"
+input_char = gets.strip
+input_array = input_string.split("")
+output_array = []
+output_array = input_array.map {|i| ((i == input_char.upcase || i == input_char.downcase)? "th" : i)}
+puts output_array
+output_string = output_array.join("")
+puts output_string
