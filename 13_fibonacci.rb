@@ -23,5 +23,28 @@
 # ruby tests/13_fibonacci_test.rb
 
 def nthFibonacci (n)
-  # Your code here
+  num = n.to_i
+  fibonacci_sequence = Array.new
+  case num
+  when 0 
+    fibonacci_sequence << 0
+  when 1
+    fibonacci_sequence << [0,1]
+  else
+    fibonacci_sequence[0] = 0
+    fibonacci_sequence[1] = 1
+    i = 1
+    while i < num
+      i+= 1
+      fibonacci_sequence[i] = fibonacci_sequence[i-1] + fibonacci_sequence[i-2]    
+    end
+  end
+  return fibonacci_sequence
 end
+
+fibonacci_sequence = Array.new
+fibonacci_sequence = nthFibonacci(5)
+puts fibonacci_sequence
+
+#fibonacci_sequence = [0,1,1,2,3,5,8,13,21,34,55]
+
