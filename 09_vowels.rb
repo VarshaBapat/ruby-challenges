@@ -15,6 +15,7 @@ result_array = Array.new
 input_array = input_string.downcase.split('')
 result_array = input_array.keep_if { |v| v =~ /[aeiou]/ } 
 return result_array
+#after stash
 #result = {}
 #vowels_array = ["a","e","i","o","u"]
 #count_vowels_array = Array.new
