@@ -36,7 +36,7 @@ def nthFibonacci (n)
     i = 1
     while i < num
       i+= 1
-      fibonacci_sequence[i] =  fibonacci_sequence[i-1] + fibonacci_sequence[i-2]    
+      fibonacci_sequence[i] = fibonacci_sequence[i-1] + fibonacci_sequence[i-2]    
     end
   end
   return fibonacci_sequence
@@ -47,3 +47,4 @@ fibonacci_sequence = nthFibonacci(5)
 puts fibonacci_sequence
 
 #fibonacci_sequence = [0,1,1,2,3,5,8,13,21,34,55]
+
