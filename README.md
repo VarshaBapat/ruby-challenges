@@ -17,6 +17,7 @@
     7. Push to master in your fork:<br/>
      `git push origin master`
 
+## List of challenge branches
 * 01_ruby_intro
 * 02_input_output
 * 03_largest_number
@@ -33,9 +34,3 @@
 * 14_hackerman
 * 15_change_letters
 * 16_palindrome
-* 17_combine_hashes
-* 18_find_errors
-* 19_balanced_number
-* 20_descending_numbers
-* 21_sort_numbers
-* 22_exes_ohs
