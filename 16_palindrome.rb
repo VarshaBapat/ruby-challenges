@@ -20,17 +20,19 @@
 # ruby tests/16_palindrome_test.rb
 
 def palindrome (string)
-    input_array = []
     input_array = string.strip.downcase.split("")
-    puts input_array
     count_input_array = input_array.length
-    puts count_input_array
     if (count_input_array.even?)
-      puts "Inside if"
-      
+      a1,a2 = input_array.each_slice((count_input_array/2.0).round).to_a
+      return (a1 - a2).empty?
     else
       puts "inside else"
+      puts "#{input_array}"
+      count = (count_input_array - 1) / 2
+      a1 = input_array.first(count)
+      a2 = input_array.last(count)
+      return (a1 - a2).empty?    
     end
 end
 
-palindrome("NOON")
+puts palindrome("asDFghiHGfdsa")
