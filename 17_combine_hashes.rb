@@ -33,6 +33,11 @@ def combine_hashes(hash1, hash2)
   return hash3
 end
 
+def combine_hashes_alt(hash1,hash2)
+  hash3 = Hash.new(0)
+  hash3 = hash1.merge(hash2){|key, hash1val, hash2val| hash1val + hash2val}
+end
+
 hash1 = { a: 3, b: 5, c: 1}
 hash2 = { a: 5, b: 2, c: 14}
 hash3 = { 1 => "c", 2 => "a", 3 => "t"}
